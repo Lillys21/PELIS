@@ -1,0 +1,41 @@
+/*ESTILOS NAVBAR*/
+.icono{
+    font-size: 30px;
+}
+/*ESTILOS CARROUSEL*/
+.texto-movie{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    font-size: 50px;
+}
+/*.centrado{
+    position: absolute;
+    top: 120px;
+    left: 60px;
+}*/
+.boton{
+    position: absolute;
+    top: 500px;
+    left: 40px;
+}
+.boton1{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+
+
+/*#peliculas{
+    max-width: 500px;
+    margin:0 auto;
+}*/
+.contenedor-imagen{
+    left: 150px;
+}
+.imagen-peli{
+    width: 20rem;
+    height: 250px;
+
+}
+
