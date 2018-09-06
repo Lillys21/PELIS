@@ -69,11 +69,11 @@ function search(){
   var valueInput = document.getElementById("text-movie").value;
   console.log(valueInput);
   //completar la url con lo queeste en el input
-  var url = "http://www.omdbapi.com/?apikey=babe7cf8&s=" + valueInput;
+  var url = "https://www.omdbapi.com/?apikey=babe7cf8&s=" + valueInput;
   console.log(url);
   ajaxGet(url,ajaxGet)
 }
-ajaxGet("http://www.omdbapi.com/?apikey=babe7cf8&s=spiderman");
+ajaxGet("https://www.omdbapi.com/?apikey=babe7cf8&s=spiderman");
 document.getElementById("search-movie").addEventListener("click", search);
 /*function(respuesta) {
   //ajaxGet("http://www.omdbapi.com/?apikey=90359439&s=" + encodeURI(randomMovie), function(respuesta) {    
